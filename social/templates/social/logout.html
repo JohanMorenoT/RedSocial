@@ -2,6 +2,11 @@
 
 {% block content %}
 
-<h1>Te has logeado.</h1>
+<div class="container">
+    <br><br>
+    <h1>Sesión cerrada correctamenta!</h1>
+    <br>
+    <button class="btn btn-outline-success" type="submit"><a href="{% url 'index' %}">Regresar!</a></button>
+</div>
 
 {% endblock %}
